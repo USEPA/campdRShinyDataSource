@@ -1,0 +1,19 @@
+Package: campdRShinyDataSource
+Title: Files for CAMPD Viz Gallery R Shiny Apps
+Version: 0.0.0.9000
+Authors@R: 
+    person("Karina", "Stetsyuk", "stetsyuk.karina@epa.gov", role = c("aut", "cre"))
+Description: Files to be hosted and used by R Shiny Apps in the CAMPD Viz Gallery.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+    data.table,
+    httr,
+    htmltools,
+    jsonlite,
+    tidyverse,
+    lubridate,
+    zoo
