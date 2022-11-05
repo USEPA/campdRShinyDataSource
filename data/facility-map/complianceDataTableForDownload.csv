@@ -591,6 +591,7 @@
 "King City Power Plant","10294","010294FACLTY","ARP","2021","Yes"
 "Bellingham","10307","010307FACLTY","ARP","2021","Yes"
 "Sayreville Power LP","10308","010308FACLTY","ARP","2021","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","ARP","2021","Yes"
 "Yuba City Energy Center","10349","010349FACLTY","ARP","2021","Yes"
 "NC Renewable Power - Lumberton LLC","10382","010382FACLTY","ARP","2021","Yes"
 "Kingsburg Cogen Facility","10405","010405FACLTY","ARP","2021","Yes"
@@ -1547,6 +1548,7 @@
 "Grant Town Power Plant","10151","010151FACLTY","CSNOX","2021","Yes"
 "Castleton Power, LLC","10190","010190FACLTY","CSNOX","2021","Yes"
 "Sayreville Power LP","10308","010308FACLTY","CSNOX","2021","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","CSNOX","2021","Yes"
 "CPI USA North Carolina Southport","10378","010378FACLTY","CSNOX","2021","Yes"
 "CPI USA North Carolina Roxboro","10379","010379FACLTY","CSNOX","2021","Yes"
 "NC Renewable Power - Lumberton LLC","10382","010382FACLTY","CSNOX","2021","Yes"
@@ -2390,6 +2392,7 @@
 "Grant Town Power Plant","10151","010151FACLTY","CSOSG3","2021","Yes"
 "Castleton Power, LLC","10190","010190FACLTY","CSOSG3","2021","Yes"
 "Sayreville Power LP","10308","010308FACLTY","CSOSG3","2021","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","CSOSG3","2021","Yes"
 "Black River Generation, LLC","10464","010464FACLTY","CSOSG3","2021","Yes"
 "Carneys Point","10566","010566FACLTY","CSOSG3","2021","Yes"
 "Ebensburg Power Company","10603","010603FACLTY","CSOSG3","2021","Yes"
@@ -2893,6 +2896,7 @@
 "Grant Town Power Plant","10151","010151FACLTY","CSSO2G1","2021","Yes"
 "Castleton Power, LLC","10190","010190FACLTY","CSSO2G1","2021","Yes"
 "Sayreville Power LP","10308","010308FACLTY","CSSO2G1","2021","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","CSSO2G1","2021","Yes"
 "CPI USA North Carolina Southport","10378","010378FACLTY","CSSO2G1","2021","Yes"
 "CPI USA North Carolina Roxboro","10379","010379FACLTY","CSSO2G1","2021","Yes"
 "NC Renewable Power - Lumberton LLC","10382","010382FACLTY","CSSO2G1","2021","Yes"
@@ -3321,7 +3325,6 @@
 "MBTA South Boston Power Facility","10176","010176FACLTY",NA,NA,NA
 "Pixelle Specialty Solutions LLC","10244","010244FACLTY",NA,NA,NA
 "T B Simon Power Plant","10328","010328FACLTY",NA,NA,NA
-"Mt. Carmel Cogeneration","10343","010343FACLTY",NA,NA,NA
 "Greenleaf One","10350","010350FACLTY",NA,NA,NA
 "Algonquin Power Windsor Locks, LLC","10567","010567FACLTY",NA,NA,NA
 "AES Hawaii","10673",NA,NA,NA,NA
