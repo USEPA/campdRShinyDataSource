@@ -12,31 +12,62 @@ library(zoo)
 
 # to get all facility data for downloading off of app
 store_facility_data <- function(unitDataBase){
-  unitData <- unitDataBase %>%
-    mutate("so2ControlsInstalled" = case_when(
-      !is.na(so2ControlInfo) ~ "Yes",
-      is.na(so2ControlInfo) ~ "No"
-    ))
 
-  unitData <- unitData %>%
-    mutate("noxControlsInstalled" = case_when(
-      !is.na(noxControlInfo) ~ "Yes",
-      is.na(noxControlInfo) ~ "No"
-    ))
+  unitShortData <- unitDataBase
+  unitShortData$so2ControlsInstalled <- NA
+  unitShortData$noxControlsInstalled <- NA
+  unitShortData$particulateMatterControlsInstalled <- NA
+  unitShortData$mercuryControlsInstalled <- NA
+  unitShortData$primaryFuelInfoOld <- unitShortData$primaryFuelInfo
 
-  unitData <- unitData %>%
-    mutate("particulateMatterControlsInstalled" = case_when(
-      !is.na(pmControlInfo) ~ "Yes",
-      is.na(pmControlInfo) ~ "No"
-    ))
+  for (row in 1:nrow(unitShortData)){
 
-  unitData <- unitData %>%
-    mutate("mercuryControlsInstalled" = case_when(
-      !is.na(hgControlInfo) ~ "Yes",
-      is.na(hgControlInfo) ~ "No"
-    ))
+    selectedUnitFac <- unitShortData[row,]
 
-  facilityTableForDownload <- unitData[,c("facilityName","facilityId","stateCode",
+    selectedFacComp <- complianceDataTableForDownload[complianceDataTableForDownload$facilityId==selectedUnitFac$facilityId[1],]
+
+    subjectedPrograms <- unlist(lapply(unique(str_split(unique(selectedUnitFac$programCodeInfo),", ")),function(cell){
+      unlist(str_split(cell,","))
+    }))
+
+    if ((length(intersect(subjectedPrograms, currentCompliancePrograms$programCode)) == 0) &&
+        (is.na(unique(selectedUnitFac$primaryFuelInfo)))){
+      unitShortData[row,"primaryFuelInfo"] <- "Not reported"
+      unitShortData[row,"so2ControlsInstalled"] <- "Not reported"
+      unitShortData[row,"noxControlsInstalled"] <- "Not reported"
+      unitShortData[row,"particulateMatterControlsInstalled"] <- "Not reported"
+      unitShortData[row,"mercuryControlsInstalled"] <- "Not reported"
+    }
+    else if (is.na(unique(selectedUnitFac$primaryFuelInfo)) & is.na(selectedFacComp$programCode[1])){
+      unitShortData[row,"primaryFuelInfo"] <- "Not reported"
+      unitShortData[row,"so2ControlsInstalled"] <- "Not reported"
+      unitShortData[row,"noxControlsInstalled"] <- "Not reported"
+      unitShortData[row,"particulateMatterControlsInstalled"] <- "Not reported"
+      unitShortData[row,"mercuryControlsInstalled"] <- "Not reported"
+    }
+    else {
+      if(!is.na(selectedUnitFac$so2ControlInfo)){
+        unitShortData[row,"so2ControlsInstalled"] <- "Yes"
+      }
+      else{unitShortData[row,"so2ControlsInstalled"] <- "No"}
+      if(!is.na(selectedUnitFac$noxControlInfo)){
+        unitShortData[row,"noxControlsInstalled"] <- "Yes"
+      }
+      else{unitShortData[row,"noxControlsInstalled"] <- "No"}
+      if(!is.na(selectedUnitFac$pmControlInfo)){
+        unitShortData[row,"particulateMatterControlsInstalled"] <- "Yes"
+      }
+      else{unitShortData[row,"particulateMatterControlsInstalled"] <- "No"}
+      if(!is.na(selectedUnitFac$hgControlInfo)){
+        unitShortData[row,"mercuryControlsInstalled"] <- "Yes"
+      }
+      else{unitShortData[row,"mercuryControlsInstalled"] <- "No"}
+    }
+
+  }
+
+
+  facilityTableForDownload <- unitShortData[,c("facilityName","facilityId","stateCode",
                                           "stateName","county",
                                           "latitude","longitude","unitId","operatingStatus",
                                           "primaryFuelInfo","so2ControlsInstalled",
@@ -135,6 +166,8 @@ for (prg in allAllowancePrograms[allAllowancePrograms$retiredIndicator == FALSE,
     }
   }
 }
+
+currentCompliancePrograms <- allAllowancePrograms[(allAllowancePrograms$retiredIndicator==FALSE & allAllowancePrograms$complianceUIFilter == TRUE),]
 
 write.csv(allAllowancePrograms, file = "data/facility-map/programTable.csv", row.names = FALSE)
 
