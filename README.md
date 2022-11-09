@@ -1,6 +1,8 @@
 # CAMPD R Shiny Data Source
 This repo generates data nightly to supply the CAMPD Data Visualization Galley R Shiny applications.
 
+The files in R/ folder are run and files generated from the script populate new data in the data/ folder. The images/ folder is static.
+
 ## Applications
 
 ### Facility Map
