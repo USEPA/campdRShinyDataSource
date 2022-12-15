@@ -1240,7 +1240,7 @@
 "Rocky Road Power, LLC",55109,"IL","Illinois","Kane County",42.0931,-88.2397,"T3","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Archer Daniels Midland Co.",10865,"IL","Illinois","Macon County",39.8675,-88.885,"GB1","Operating","Pipeline Natural Gas","No","No","No","No",2021,"SIPNOX"
 "Raccoon Creek Power Plant",55417,"IL","Illinois","Clay County",38.6996,-88.5392,"CT-03","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
-"Will County",884,"IL","Illinois","Will County",41.6334,-88.0626,"3","Operating","Coal","No","Yes","Yes","Yes",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
+"Will County",884,"IL","Illinois","Will County",41.6334,-88.0626,"3","Retired","Coal","No","Yes","Yes","Yes",2021,NA
 "Raccoon Creek Power Plant",55417,"IL","Illinois","Clay County",38.6996,-88.5392,"CT-02","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Joppa Steam",887,"IL","Illinois","Massac County",37.2103,-88.8606,"4","Operating","Coal","No","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
 "Rocky Road Power, LLC",55109,"IL","Illinois","Kane County",42.0931,-88.2397,"T1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
