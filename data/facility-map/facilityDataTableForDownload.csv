@@ -2997,18 +2997,18 @@
 "Dicks Creek Power Company LLC",2831,"OH","Ohio","Butler County",39.465,-84.3775,"1","Operating","Pipeline Natural Gas","No","No","No","No",2021,"CSNOX, CSOSG3, CSSO2G1"
 "Washington Power Company LLC",55397,"OH","Ohio","Washington County",39.5798,-81.6571,"CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"6","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
-"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"4","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
+"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"4","Retired","Coal","Yes","Yes","Yes","No",2021,NA
 "W H Zimmer Generating Station",6019,"OH","Ohio","Clermont County",38.8689,-84.2286,"1","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
 "W H Zimmer Generating Station",6019,"OH","Ohio","Clermont County",38.8689,-84.2286,"B","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"SIPNOX"
 "Frank M Tait Station",2847,"OH","Ohio","Montgomery County",39.7281,-84.2103,"1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "South Field Energy, LLC",60356,"OH","Ohio","Columbiana County",40.635,-80.6793,"1","Operating (Started 06/14/2021)","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, NSPS4T"
 "Hanging Rock Power Company LLC",55736,"OH","Ohio","Lawrence County",38.5731,-82.7833,"CTG3","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Darby Electric Generating Station",55247,"OH","Ohio","Pickaway County",39.7139,-83.1778,"CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
-"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"1","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
+"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"1","Retired","Coal","Yes","Yes","Yes","No",2021,NA
 "W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"5","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
-"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"2","Operating","Coal","Yes","No","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
+"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"2","Retired","Coal","Yes","No","No","No",2021,NA
 "Miami Fort Power Station",2832,"OH","Ohio","Hamilton County",39.1131,-84.8031,"6","Operating","Coal","No","No","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
-"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"3","Operating","Coal","Yes","No","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
+"W H Sammis",2866,"OH","Ohio","Jefferson County",40.5308,-80.6311,"3","Retired","Coal","Yes","No","Yes","No",2021,NA
 "Frank M Tait Station",2847,"OH","Ohio","Montgomery County",39.7281,-84.2103,"2","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Niles",2861,"OH","Ohio","Trumbull County",41.1667,-80.75,"CTA","Operating","Diesel Oil","No","No","No","No",2021,"CSNOX, CSOSG3, CSSO2G1"
 "BP Husky Refining LLC",880030,"OH","Ohio","Lucas County",41.6786,-83.4539,"B035","Operating","Process Gas","No","Yes","No","No",2021,"SIPNOX"
