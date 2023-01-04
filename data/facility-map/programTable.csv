@@ -9,7 +9,7 @@
 "CSOSG2","Cross-State Air Pollution Rule NOx Ozone Season Program Group 2","NOX","CSAPR","Cross-State Air Pollution Rule",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,NA,"CSAPR NOx Ozone Season Program Group 2","2017,2018,2019,2020,2021","2017,2018,2019,2020,2021"
 "CSOSG3","Cross-State Air Pollution Rule NOx Ozone Season Program Group 3","NOX","CSAPR","Cross-State Air Pollution Rule",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,NA,"CSAPR NOx Ozone Season Program Group 3","2021,2022","2021"
 "CSSO2G1","Cross-State Air Pollution Rule SO2 Annual Program Group 1","SO2","CSAPR","Cross-State Air Pollution Rule",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"CSAPR SO2 Annual Program Group 1","2015,2016,2017,2018,2019,2020,2021,2022","2015,2016,2017,2018,2019,2020,2021"
-"CSSO2G2","Cross-State Air Pollution Rule SO2 Annual Program Group 2","SO2","CSAPR","Cross-State Air Pollution Rule",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"CSAPR SO2 Annual Program Group 2","2015,2016,2017,2018,2019,2020,2021","2015,2016,2017,2018,2019,2020,2021"
+"CSSO2G2","Cross-State Air Pollution Rule SO2 Annual Program Group 2","SO2","CSAPR","Cross-State Air Pollution Rule",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"CSAPR SO2 Annual Program Group 2","2015,2016,2017,2018,2019,2020,2021,2022","2015,2016,2017,2018,2019,2020,2021"
 "MATS","Mercury and Air Toxics Standards",NA,NA,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,"Mercury and Air Toxics Standards",NA,NA
 "NBP","NOx Budget Trading Program","NOX",NA,NA,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,"2009-03-25","NOx Budget Trading Program","2003,2004,2005,2006,2007,2008","2003,2004,2005,2006,2007,2008"
 "NHNOX","NH NOx Program",NA,NA,NA,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,"New Hampshire NOx Program",NA,NA
