@@ -17,4 +17,4 @@
 "OTC","OTC NOx Budget Program","NOX",NA,NA,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,"2003-05-06","OTC NOx Budget Program","1999,2000,2001,2002","1999,2000,2001,2002"
 "RGGI","Regional Greenhouse Gas Initiative",NA,NA,NA,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,NA,"Regional Greenhouse Gas Initiative",NA,NA
 "SIPNOX","SIP NOx Program",NA,NA,NA,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,"SIP NOx Program",NA,NA
-"TXSO2","Texas SO2 Trading Program","SO2","TXSO2","Texas SO2 Trading Program",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Texas SO2 Trading Program","2019,2020,2021","2019,2020,2021"
+"TXSO2","Texas SO2 Trading Program","SO2","TXSO2","Texas SO2 Trading Program",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Texas SO2 Trading Program","2019,2020,2021,2022","2019,2020,2021"
