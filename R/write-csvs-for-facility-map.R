@@ -109,63 +109,47 @@ allPrograms$programShorthandDescription[which(allPrograms$programCode == "RGGI")
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "SIPNOX")] <- "SIP NOx Program"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "TXSO2")] <- "Texas SO2 Trading Program"
 
+
 # Get all allowance programs
 allAllowancePrograms <- allPrograms#[allPrograms$allowanceUIFilter == TRUE,]
 
 # adding emission and compliance year columns
 allAllowancePrograms["emissionYears"] <- NA
-allAllowancePrograms["complianceYears"] <- NA
+
+# getting compliance years and merging table
+applicableCompliance <- get_allow_comp_applicable_data()
+
+applicableProgramCompYears <- unique(applicableCompliance[,c("year","programCode")])
+
+applicableProgramListYears <- as.data.frame(do.call(rbind, unique(applicableProgramCompYears[,c("programCode")]) %>% map(function(prg)
+  c(programCode = prg,
+       complianceYears = paste(applicableProgramCompYears[applicableProgramCompYears$programCode == prg,c("year")], collapse=',')))
+))
+
+allAllowancePrograms <- merge(allAllowancePrograms, applicableProgramListYears, by=c("programCode"), all.x = TRUE)
+
+# emissions data
+latestEmissionYear <- get_latest_emission_valid_vear()
+# adding ARP years
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode == "ARP")] <- paste(
+  append(c(1980,1985,1990),seq(1995,latestEmissionYear)), collapse=',')
 
 # adding CAIR years
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CAIROS","CAIRNOX"))] <- paste(seq(2008, 2014), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CAIRSO2"))] <- paste(seq(2009, 2014), collapse=',')
-allAllowancePrograms$complianceYears[which(allAllowancePrograms$programCode %in% c("CAIROS","CAIRNOX","CAIRSO2"))] <- paste(seq(2009, 2014), collapse=',')
 
 # adding CSAPR (retired)
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSNOXOS"))] <- paste(seq(2015, 2016), collapse=',')
-allAllowancePrograms$complianceYears[which(allAllowancePrograms$programCode %in% c("CSNOXOS"))] <- paste(seq(2015, 2016), collapse=',')
 
 # adding NBP and OTC
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("NBP"))] <- paste(seq(2003, 2008), collapse=',')
-allAllowancePrograms$complianceYears[which(allAllowancePrograms$programCode %in% c("NBP"))] <- paste(seq(2003, 2008), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("OTC"))] <- paste(seq(1999, 2002), collapse=',')
-allAllowancePrograms$complianceYears[which(allAllowancePrograms$programCode %in% c("OTC"))] <- paste(seq(1999, 2002), collapse=',')
 
-# adding beginning year to current programs
-startYears <- as.data.frame(allAllowancePrograms[allAllowancePrograms$retiredIndicator == FALSE,]$programCode)
-colnames(startYears) <- c('programCode')
-startYears["startYear"] <- NA
-startYears$startYear[which(startYears$programCode %in% c("CSNOX","CSSO2G1","CSSO2G2"))] <- 2015
-startYears$startYear[which(startYears$programCode %in% c("CSOSG1","CSOSG2"))] <- 2017
-startYears$startYear[which(startYears$programCode %in% c("CSOSG3"))] <- 2021
-startYears$startYear[which(startYears$programCode %in% c("TXSO2"))] <- 2019
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSNOX","CSSO2G1","CSSO2G2"))] <- paste(seq(2015, latestEmissionYear), collapse=',')
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG1","CSOSG2"))] <- paste(seq(2017, latestEmissionYear), collapse=',')
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG3"))] <- paste(seq(2021, latestEmissionYear), collapse=',')
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("TXSO2"))] <- paste(seq(2019, latestEmissionYear), collapse=',')
 
-# (ARP) using the APIs to get the last year of data (what year returns data)
-allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode == "ARP")] <- paste(
-  append(c(1980,1985,1990),seq(1995,get_latest_emission_valid_vear(quarterEmissionsPageUrl, c("ARP")))), collapse=',')
-allAllowancePrograms$complianceYears[which(allAllowancePrograms$programCode == "ARP")] <- paste(
-  seq(1995,get_latest_valid_vear(compliancePageUrl, c("ARP"))), collapse=',')
-
-# For all other programs, use the APIs to find the latest year of data per program
-for (prg in allAllowancePrograms[allAllowancePrograms$retiredIndicator == FALSE,]$programCode){
-  if(!(prg %in% c("ARP","MATS","NHNOX","NSPS4T","RGGI","SIPNOX"))){
-    # API calls
-    latestEmissionYear <- get_latest_emission_valid_vear(quarterEmissionsPageUrl, c(prg))
-    latestComplianceYear <- get_latest_valid_vear(compliancePageUrl, c(prg))
-    # In case an emission year isn't present, 'NA' remains in the cell
-    if(!is.na(latestEmissionYear)){
-      allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode == prg)] <-
-        paste(seq(startYears$startYear[startYears$programCode==prg],
-                  latestEmissionYear), collapse=',')
-    }
-    # In case a compliance year isn't present, 'NA' remains in the cell
-    if(!is.na(latestComplianceYear)){
-      allAllowancePrograms$complianceYears[which(allAllowancePrograms$programCode == prg)] <-
-        paste(seq(startYears$startYear[startYears$programCode==prg],
-                  latestComplianceYear), collapse=',')
-    }
-  }
-}
 
 currentCompliancePrograms <- allAllowancePrograms[(allAllowancePrograms$retiredIndicator==FALSE & allAllowancePrograms$complianceUIFilter == TRUE),]
 
@@ -183,6 +167,11 @@ for (i in 1:nrow(allAllowancePrograms)){
     allAllowancePrograms$emissionYears[i] <- list(c(as.integer(unlist(strsplit(compliancePrograms$emissionYears[i], ",")))))
   }
 }
+
+# Get latest compliance year from applicable compliance table
+latestYearsCurrentPrograms <- applicableProgramCompYears[applicableProgramCompYears$programCode %in% currentCompliancePrograms$programCode,] %>% aggregate(year ~ programCode, max)
+
+latestComplianceYear <- min(latestYearsCurrentPrograms$year) # get min of max to ensure all compliance data is in for a given year
 
 #### Unit data for latest compliance year ###
 unitData <- get_facility_data(latestComplianceYear)
