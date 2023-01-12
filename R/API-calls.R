@@ -3,20 +3,14 @@
 apiUrlBase <- "https://api.epa.gov/easey"
 apiKEY <- Sys.getenv("API_KEY")
 
-# annual emissions url
-annualEmissionsUrl <- paste0(apiUrlBase,"/streaming-services/emissions/apportioned/annual?API_KEY=",apiKEY)
 # quarter emissions url
-quarterEmissionsPageUrl <- paste0(apiUrlBase,"/emissions-mgmt/emissions/apportioned/quarterly?API_KEY=",apiKEY)
+emissionsSumbissionUrl <- paste0(apiUrlBase,"/emissions-mgmt/emissions/submission-progress?API_KEY=",apiKEY)
 # allowance compliance stream url
 complianceUrl <- paste0(apiUrlBase,"/streaming-services/allowance-compliance?API_KEY=",apiKEY)
-# allowance compliance page url
-compliancePageUrl <- paste0(apiUrlBase,"/account-mgmt/allowance-compliance?API_KEY=",apiKEY)
 # allowance compliance url
 complianceApplicableUrl <- paste0(apiUrlBase,"/account-mgmt/allowance-compliance/attributes/applicable?api_key=",apiKEY)
 # facilities stream url
 facilitiesUrl <- paste0(apiUrlBase,"/streaming-services/facilities/attributes?API_KEY=",apiKEY)
-# facilities (applicable) url
-facilitiesApplicableUrl <- paste0(apiUrlBase,"/facilities-mgmt/facilities/attributes/applicable?API_KEY=",apiKEY)
 # account info url
 accountInfoUrl <- paste0(apiUrlBase,"/streaming-services/accounts/attributes?API_KEY=",apiKEY)
 # program mdm url
@@ -33,10 +27,9 @@ get_facility_data <- function(years){
 
   res = GET(facilitiesUrl, query = query)
 
-  if (length(res$status_code) != 0){
-    if (res$status_code != 200){
-      stop(paste("API status code:",res$status_code,annualEmissionsUrl,"..",res$message))
-    }
+  if ((res$status_code != 200) & (res$status_code != 304)){
+    errorFrame <- fromJSON(rawToChar(res$content))
+    stop(paste("Error Code:",errorFrame$statusCode,errorFrame$message))
   }
 
   yearFacilityData <- fromJSON(rawToChar(res$content))
@@ -58,15 +51,30 @@ get_allow_comp_data <- function(complianceYears, programs=NULL,
 
   res = GET(complianceUrl, query = query)
 
-  if (length(res$status_code) != 0){
-    if (res$status_code != 200){
-      stop(paste("API status code:",res$status_code,annualEmissionsUrl,"..",res$message))
-    }
+  if ((res$status_code != 200) & (res$status_code != 304)){
+    errorFrame <- fromJSON(rawToChar(res$content))
+    stop(paste("Error Code:",errorFrame$statusCode,errorFrame$message))
   }
 
   yearComplianceData <- fromJSON(rawToChar(res$content))
 
   yearComplianceData
+}
+
+# Allowance compliance (applicable) data
+# all arguments must be in vector format i.e. c("CT","NY","WI")
+get_allow_comp_applicable_data <- function(){
+
+  res = GET(complianceApplicableUrl)
+
+  if ((res$status_code != 200) & (res$status_code != 304)){
+    errorFrame <- fromJSON(rawToChar(res$content))
+    stop(paste("Error Code:",errorFrame$statusCode,errorFrame$message))
+  }
+
+  allowanceComplianceData <- fromJSON(rawToChar(res$content))
+
+  allowanceComplianceData
 }
 
 # API call to get allowance holdings info for a facility
@@ -79,10 +87,9 @@ get_account_info_data <- function(facilities=NULL,states=NULL){
 
   res = GET(accountInfoUrl, query = baseQuery)
 
-  if (length(res$status_code) != 0){
-    if (res$status_code != 200){
-      stop(paste("API status code:",res$status_code,accountInfoUrl,"..",res$message))
-    }
+  if ((res$status_code != 200) & (res$status_code != 304)){
+    errorFrame <- fromJSON(rawToChar(res$content))
+    stop(paste("Error Code:",errorFrame$statusCode,errorFrame$message))
   }
 
   returnData <- fromJSON(rawToChar(res$content))
@@ -90,57 +97,21 @@ get_account_info_data <- function(facilities=NULL,states=NULL){
   returnData
 }
 
-# get latest year for an endpoint returning yearly data
-get_latest_valid_vear <- function(url, programs=NULL){
-  latestYear <- as.integer(format(Sys.Date(), "%Y"))
-  baseQuery <- list(page="1",
-                    perPage="1")
-  runExit <- 0
+# get latest year from emissions submission info
+get_latest_emission_valid_vear <- function(dateInput=Sys.Date()){
+  date <- as.Date(dateInput)
+  latestYear <- year(date)
 
-  if (!is.null(programs)){baseQuery <- append(baseQuery, list(programCodeInfo = paste0(programs, collapse = '|')))}
-  query <- append(baseQuery, list(year=latestYear))
-  res = GET(url, query = query)
+  res = GET(emissionsSumbissionUrl,query=list(submissionPeriod = date))
 
-  if (length(res$content) <= 2 | res$status_code==400){
-    while(length(res$content) <= 2 | res$status_code==400){
+  if (length(res$content)!=0) {
+    submissionData <- fromJSON(rawToChar(res$content))
+    if (submissionData$quarter == 4){
       latestYear <- latestYear - 1
-      runExit <- runExit + 1
-      if (runExit > 2){
-        return(NA)
-        break
-      }
-      query <- append(baseQuery, list(year=latestYear))
-      res = GET(url, query = query)
     }
   }
+  latestYear <- latestYear - 1
 
   return(latestYear)
-}
 
-# get latest year for an endpoint returning yearly data
-get_latest_emission_valid_vear <- function(url, programs=NULL){
-  latestYear <- as.integer(format(Sys.Date(), "%Y"))
-  baseQuery <- list(page="1",
-                    perPage="1",
-                    quarter="4")
-  runExit <- 0
-
-  if (!is.null(programs)){baseQuery <- append(baseQuery, list(programCodeInfo = paste0(programs, collapse = '|')))}
-  query <- append(baseQuery, list(year=latestYear))
-  res = GET(url, query = query)
-
-  if (length(res$content) <= 2 | res$status_code==400){
-    while(length(res$content) <= 2 | res$status_code==400){
-      latestYear <- latestYear - 1
-      runExit <- runExit + 1
-      if (runExit > 2){
-        return(NA)
-        break
-      }
-      query <- append(baseQuery, list(year=latestYear))
-      res = GET(url, query = query)
-    }
-  }
-
-  return(latestYear)
 }
