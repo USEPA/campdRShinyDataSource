@@ -979,7 +979,7 @@
 "Fox Energy Center","56031","056031FACLTY","ARP","2021","Yes"
 "Equus  Power I","56032","056032FACLTY","ARP","2021","Yes"
 "Malburg Generating Station","56041","056041FACLTY","ARP","2021","Yes"
-"Magnolia","56046","056046FACLTY","ARP","2021","Yes"
+"Magnolia Power Project","56046","056046FACLTY","ARP","2021","Yes"
 "CPV Towantic Energy Center","56047","056047FACLTY","ARP","2021","Yes"
 "Elm Road Generating Station","56068","056068FACLTY","ARP","2021","Yes"
 "Walnut Energy Center","56078","056078FACLTY","ARP","2021","Yes"
@@ -3376,7 +3376,7 @@
 "Riverbay Corp. - Co-Op City","52168","052168FACLTY",NA,NA,NA
 "International Paper-Riverdale Mill","54096","054096FACLTY",NA,NA,NA
 "Ticonderoga Mill","54099","054099FACLTY",NA,NA,NA
-"ArcelorMittal Warren","54207","054207FACLTY",NA,NA,NA
+"Cleveland-Cliffs Warren","54207","054207FACLTY",NA,NA,NA
 "University of NC Chapel Hill","54276","054276FACLTY",NA,NA,NA
 "Ingredion Incorporated Argo Plant","54556",NA,NA,NA,NA
 "Pratt & Whitney, East Hartford","54605","054605FACLTY",NA,NA,NA
@@ -3568,6 +3568,7 @@
 "Handsome Lake Energy","55233","055233FACLTY","CSNOX","2017","No"
 "Shelby County","55237","055237FACLTY","CSNOX","2017","No"
 "Maple Lake Station","2042","002042FACLTY","CSNOX","2018","No"
+"Cumberland Energy Center","5083","005083FACLTY","CSNOX","2018","No"
 "St. Bonifacius Station","6824","006824FACLTY","CSNOX","2018","No"
 "Gibson City Energy Center, LLC","55201","055201FACLTY","CSNOX","2018","No"
 "Shelby County","55237","055237FACLTY","CSNOX","2018","No"
