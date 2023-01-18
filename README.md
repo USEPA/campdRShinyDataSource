@@ -6,7 +6,7 @@ The files in R/ folder are run and files generated from the script populate new 
 ## Applications
 
 ### Facility Map
-- URL
+- [App url](https://campd.epa.gov/tools/facility-map/)
 - [Facility Map Github Repo](https://github.com/USEPA/campd-viz-gallery-facility-map)
 
 ## Other information
