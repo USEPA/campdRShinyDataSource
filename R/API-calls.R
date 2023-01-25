@@ -14,9 +14,9 @@ facilitiesUrl <- paste0(apiUrlBase,"/streaming-services/facilities/attributes?AP
 # account info url
 accountInfoUrl <- paste0(apiUrlBase,"/streaming-services/accounts/attributes?API_KEY=",apiKEY)
 # program mdm url
-programMdmUrl <- paste0(apiUrlBase,"/master-data-mgmt/programs?API_KEY=",apiKEY)
+programMdmUrl <- paste0(apiUrlBase,"/master-data-mgmt/program-codes?API_KEY=",apiKEY)
 # program mdm url
-statesMdmUrl <- paste0(apiUrlBase,"/master-data-mgmt/states?API_KEY=",apiKEY)
+statesMdmUrl <- paste0(apiUrlBase,"/master-data-mgmt/state-codes?API_KEY=",apiKEY)
 
 
 ## global API functions
