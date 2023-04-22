@@ -2699,7 +2699,7 @@
 "Indeck-Yerkes Energy Center",50451,"NY","New York","Erie County",42.9671,-78.9182,"1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "59th Street",2503,"NY","New York","New York County",40.7711,-73.9911,"BLR115","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"SIPNOX"
 "West Babylon Facility",2521,"NY","New York","Suffolk County",40.6953,-73.3497,"UGT001","Operating","Diesel Oil","No","No","No","No",2021,"CSNOX, CSOSG3, CSSO2G1, RGGI"
-"Cayuga Operating Company, LLC",2535,"NY","New York","Tompkins County",42.6028,-76.6336,"1","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
+"Cayuga Operating Company, LLC",2535,"NY","New York","Tompkins County",42.6028,-76.6336,"1","Retired","Coal","Yes","Yes","Yes","No",2021,NA
 "Sterling Power Plant",50744,"NY","New York","Oneida County",43.0803,-75.6003,"00001","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Northport",2516,"NY","New York","Suffolk County",40.9231,-73.3417,"2","Operating","Pipeline Natural Gas","No","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
 "Narrows Generating Station",2499,"NY","New York","Kings County",40.6486,-74.0209,"CT01-8","Operating","Pipeline Natural Gas","No","No","No","No",2021,"RGGI, SIPNOX"
@@ -2740,7 +2740,7 @@
 "Pouch Terminal",8053,"NY","New York","Richmond County",40.6188,-74.069,"PT01","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Bowline Generating Station",2625,"NY","New York","Rockland County",41.2044,-73.9689,"2","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
 "Holtsville Facility",8007,"NY","New York","Suffolk County",40.8153,-73.0664,"U00002","Operating","Diesel Oil","No","Yes","No","No",2021,"CSNOX, CSOSG3, CSSO2G1, RGGI"
-"Cayuga Operating Company, LLC",2535,"NY","New York","Tompkins County",42.6028,-76.6336,"2","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
+"Cayuga Operating Company, LLC",2535,"NY","New York","Tompkins County",42.6028,-76.6336,"2","Retired","Coal","Yes","Yes","Yes","No",2021,NA
 "23rd and 3rd",7910,"NY","New York","Kings County",40.663,-74,"2301","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "E F Barrett",2511,"NY","New York","Nassau County",40.6169,-73.6486,"U00008","Operating","Pipeline Natural Gas","No","No","No","No",2021,"RGGI, SIPNOX"
 "Cricket Valley Energy Center",57185,"NY","New York","Dutchess County",41.6762,-73.5806,"U001","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, NSPS4T, RGGI"
@@ -2790,7 +2790,7 @@
 "Astoria Gas Turbine Power",55243,"NY","New York","Queens County",40.7864,-73.9133,"CT3-1A","Operating","Pipeline Natural Gas","No","No","No","No",2021,"CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Astoria Energy",55375,"NY","New York","Queens County",40.7825,-73.8964,"CT3","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Astoria Energy",55375,"NY","New York","Queens County",40.7825,-73.8964,"CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
-"Somerset Operating Company  (Kintigh)",6082,"NY","New York","Niagara County",43.3561,-78.6039,"1","Operating","Coal","Yes","Yes","Yes","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
+"Somerset Operating Company  (Kintigh)",6082,"NY","New York","Niagara County",43.3561,-78.6039,"1","Retired","Coal","Yes","Yes","Yes","No",2021,NA
 "Caithness Long Island Energy Center",56234,"NY","New York","Suffolk County",40.8142,-72.9403,"0001","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Syracuse, LLC",10621,"NY","New York","Onondaga County",43.0667,-76.2246,"1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Hudson Avenue",2496,"NY","New York","Kings County",40.7052,-73.9807,"CT0005","Operating","Other Oil","No","No","No","No",2021,"RGGI, SIPNOX"
