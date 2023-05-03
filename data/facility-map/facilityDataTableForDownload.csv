@@ -2956,7 +2956,7 @@
 "Greenville Electric Gen Station",55228,"OH","Ohio","Darke County",40.0747,-84.6147,"G1CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Fremont Energy Center",55701,"OH","Ohio","Sandusky County",41.3781,-83.1647,"CT02","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "West Lorain",2869,"OH","Ohio","Lorain County",41.4297,-82.2633,"5","Operating","Diesel Oil","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
-"Eastlake",2837,"OH","Ohio","Lake County",41.6713,-81.4432,"6","Operating","Diesel Oil","No","No","No","No",2021,"CSNOX, CSOSG3, CSSO2G1"
+"Eastlake",2837,"OH","Ohio","Lake County",41.6713,-81.4432,"6","Retired","Diesel Oil","No","No","No","No",2021,NA
 "Woodsdale",7158,"OH","Ohio","Butler County",39.4492,-84.4611,"**GT2","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Greenville Electric Gen Station",55228,"OH","Ohio","Darke County",40.0747,-84.6147,"G3CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Clean Energy Future - Lordstown, LLC",60376,"OH","Ohio","Trumbull County",41.1489,-80.8516,"2","Operating","Pipeline Natural Gas","No","Yes","No","No",2021,"ARP, CSNOX, CSOSG3, CSSO2G1, NSPS4T"
