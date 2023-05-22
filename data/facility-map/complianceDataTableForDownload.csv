@@ -227,7 +227,6 @@
 "Northport","2516","002516FACLTY","ARP","2021","Yes"
 "Port Jefferson Energy Center","2517","002517FACLTY","ARP","2021","Yes"
 "Greenidge Generation LLC","2527","002527FACLTY","ARP","2021","Yes"
-"Cayuga Operating Company, LLC","2535","002535FACLTY","ARP","2021","Yes"
 "Bethlehem Energy Center (Albany)","2539","002539FACLTY","ARP","2021","Yes"
 "Oswego Harbor Power","2594","002594FACLTY","ARP","2021","Yes"
 "Bowline Generating Station","2625","002625FACLTY","ARP","2021","Yes"
@@ -379,7 +378,6 @@
 "Daniel Electric Generating Plant","6073","006073FACLTY","ARP","2021","Yes"
 "Colstrip","6076","006076FACLTY","ARP","2021","Yes"
 "Gerald Gentleman Station","6077","006077FACLTY","ARP","2021","Yes"
-"Somerset Operating Company  (Kintigh)","6082","006082FACLTY","ARP","2021","Yes"
 "R M Schahfer Generating Station","6085","006085FACLTY","ARP","2021","Yes"
 "Lewis & Clark","6089","006089FACLTY","ARP","2021","Yes"
 "Sherburne County","6090","006090FACLTY","ARP","2021","Yes"
@@ -1305,7 +1303,6 @@
 "Port Jefferson Energy Center","2517","002517FACLTY","CSNOX","2021","Yes"
 "West Babylon Facility","2521","002521FACLTY","CSNOX","2021","Yes"
 "Greenidge Generation LLC","2527","002527FACLTY","CSNOX","2021","Yes"
-"Cayuga Operating Company, LLC","2535","002535FACLTY","CSNOX","2021","Yes"
 "Bethlehem Energy Center (Albany)","2539","002539FACLTY","CSNOX","2021","Yes"
 "Oswego Harbor Power","2594","002594FACLTY","CSNOX","2021","Yes"
 "Bowline Generating Station","2625","002625FACLTY","CSNOX","2021","Yes"
@@ -1328,7 +1325,6 @@
 "Dicks Creek Power Company LLC","2831","002831FACLTY","CSNOX","2021","Yes"
 "Miami Fort Power Station","2832","002832FACLTY","CSNOX","2021","Yes"
 "Avon Lake Power Plant","2836","002836FACLTY","CSNOX","2021","Yes"
-"Eastlake","2837","002837FACLTY","CSNOX","2021","Yes"
 "Frank M Tait Station","2847","002847FACLTY","CSNOX","2021","Yes"
 "O H Hutchings","2848","002848FACLTY","CSNOX","2021","Yes"
 "Niles","2861","002861FACLTY","CSNOX","2021","Yes"
@@ -1414,7 +1410,6 @@
 "Trimble County","6071","006071FACLTY","CSNOX","2021","Yes"
 "Greenwood Energy Center","6074","006074FACLTY","CSNOX","2021","Yes"
 "Gerald Gentleman Station","6077","006077FACLTY","CSNOX","2021","Yes"
-"Somerset Operating Company  (Kintigh)","6082","006082FACLTY","CSNOX","2021","Yes"
 "R M Schahfer Generating Station","6085","006085FACLTY","CSNOX","2021","Yes"
 "Sherburne County","6090","006090FACLTY","CSNOX","2021","Yes"
 "Nebraska City Station","6096","006096FACLTY","CSNOX","2021","Yes"
@@ -2274,7 +2269,6 @@
 "Port Jefferson Energy Center","2517","002517FACLTY","CSOSG3","2021","Yes"
 "West Babylon Facility","2521","002521FACLTY","CSOSG3","2021","Yes"
 "Greenidge Generation LLC","2527","002527FACLTY","CSOSG3","2021","Yes"
-"Cayuga Operating Company, LLC","2535","002535FACLTY","CSOSG3","2021","Yes"
 "Bethlehem Energy Center (Albany)","2539","002539FACLTY","CSOSG3","2021","Yes"
 "Oswego Harbor Power","2594","002594FACLTY","CSOSG3","2021","Yes"
 "Bowline Generating Station","2625","002625FACLTY","CSOSG3","2021","Yes"
@@ -2286,7 +2280,6 @@
 "Dicks Creek Power Company LLC","2831","002831FACLTY","CSOSG3","2021","Yes"
 "Miami Fort Power Station","2832","002832FACLTY","CSOSG3","2021","Yes"
 "Avon Lake Power Plant","2836","002836FACLTY","CSOSG3","2021","Yes"
-"Eastlake","2837","002837FACLTY","CSOSG3","2021","Yes"
 "Frank M Tait Station","2847","002847FACLTY","CSOSG3","2021","Yes"
 "O H Hutchings","2848","002848FACLTY","CSOSG3","2021","Yes"
 "Niles","2861","002861FACLTY","CSOSG3","2021","Yes"
@@ -2333,7 +2326,6 @@
 "H L Spurlock","6041","006041FACLTY","CSOSG3","2021","Yes"
 "Big Cajun 2","6055","006055FACLTY","CSOSG3","2021","Yes"
 "Trimble County","6071","006071FACLTY","CSOSG3","2021","Yes"
-"Somerset Operating Company  (Kintigh)","6082","006082FACLTY","CSOSG3","2021","Yes"
 "R M Schahfer Generating Station","6085","006085FACLTY","CSOSG3","2021","Yes"
 "Gibson","6113","006113FACLTY","CSOSG3","2021","Yes"
 "A B Brown Generating Station","6137","006137FACLTY","CSOSG3","2021","Yes"
@@ -2709,7 +2701,6 @@
 "Port Jefferson Energy Center","2517","002517FACLTY","CSSO2G1","2021","Yes"
 "West Babylon Facility","2521","002521FACLTY","CSSO2G1","2021","Yes"
 "Greenidge Generation LLC","2527","002527FACLTY","CSSO2G1","2021","Yes"
-"Cayuga Operating Company, LLC","2535","002535FACLTY","CSSO2G1","2021","Yes"
 "Bethlehem Energy Center (Albany)","2539","002539FACLTY","CSSO2G1","2021","Yes"
 "Oswego Harbor Power","2594","002594FACLTY","CSSO2G1","2021","Yes"
 "Bowline Generating Station","2625","002625FACLTY","CSSO2G1","2021","Yes"
@@ -2732,7 +2723,6 @@
 "Dicks Creek Power Company LLC","2831","002831FACLTY","CSSO2G1","2021","Yes"
 "Miami Fort Power Station","2832","002832FACLTY","CSSO2G1","2021","Yes"
 "Avon Lake Power Plant","2836","002836FACLTY","CSSO2G1","2021","Yes"
-"Eastlake","2837","002837FACLTY","CSSO2G1","2021","Yes"
 "Frank M Tait Station","2847","002847FACLTY","CSSO2G1","2021","Yes"
 "O H Hutchings","2848","002848FACLTY","CSSO2G1","2021","Yes"
 "Niles","2861","002861FACLTY","CSSO2G1","2021","Yes"
@@ -2803,7 +2793,6 @@
 "Iatan","6065","006065FACLTY","CSSO2G1","2021","Yes"
 "Trimble County","6071","006071FACLTY","CSSO2G1","2021","Yes"
 "Greenwood Energy Center","6074","006074FACLTY","CSSO2G1","2021","Yes"
-"Somerset Operating Company  (Kintigh)","6082","006082FACLTY","CSSO2G1","2021","Yes"
 "R M Schahfer Generating Station","6085","006085FACLTY","CSSO2G1","2021","Yes"
 "Gibson","6113","006113FACLTY","CSSO2G1","2021","Yes"
 "A B Brown Generating Station","6137","006137FACLTY","CSSO2G1","2021","Yes"
@@ -3317,10 +3306,13 @@
 "Narrows Generating Station","2499","002499FACLTY",NA,NA,NA
 "59th Street","2503","002503FACLTY",NA,NA,NA
 "East Hampton Facility","2512","002512FACLTY",NA,NA,NA
+"Cayuga Operating Company, LLC","2535","002535FACLTY",NA,NA,NA
+"Eastlake","2837","002837FACLTY",NA,NA,NA
 "Berlin 5","3734",NA,NA,NA,NA
 "Penny Lane Gas Turbine","3754",NA,NA,NA,NA
 "Willow Island Power Station","3946","003946FACLTY",NA,NA,NA
 "Stony Brook Energy Center","6081","006081FACLTY",NA,NA,NA
+"Somerset Operating Company  (Kintigh)","6082","006082FACLTY",NA,NA,NA
 "Bruce Mansfield","6094","006094FACLTY",NA,NA,NA
 "Boardman","6106","006106FACLTY",NA,NA,NA
 "Healy Power Plant","6288",NA,NA,NA,NA
