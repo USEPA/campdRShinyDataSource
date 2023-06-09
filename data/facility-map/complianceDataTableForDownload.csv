@@ -609,7 +609,6 @@
 "Hopewell Power Station","10771","010771FACLTY","ARP","2021","Yes"
 "Altavista Power Station","10773","010773FACLTY","ARP","2021","Yes"
 "Southampton Power Station","10774","010774FACLTY","ARP","2021","Yes"
-"E. F. Oxnard Energy Facility","10776","010776FACLTY","ARP","2021","Yes"
 "AG - Energy","10803","010803FACLTY","ARP","2021","Yes"
 "Hazleton Generation","10870","010870FACLTY","ARP","2021","Yes"
 "Linden Cogeneration Facility","50006","050006FACLTY","ARP","2021","Yes"
@@ -822,7 +821,7 @@
 "Westbrook Energy Center","55294","055294FACLTY","ARP","2021","Yes"
 "Blythe Energy","55295","055295FACLTY","ARP","2021","Yes"
 "Calumet Energy Team, LLC","55296","055296FACLTY","ARP","2021","Yes"
-"New Covert Generating Project","55297","055297FACLTY","ARP","2021","Yes"
+"Covert Generating Station","55297","055297FACLTY","ARP","2021","Yes"
 "Fairless Energy Center","55298","055298FACLTY","ARP","2021","Yes"
 "Channel Energy Center","55299","055299FACLTY","ARP","2021","Yes"
 "Baconton Power","55304","055304FACLTY","ARP","2021","Yes"
@@ -1686,7 +1685,7 @@
 "Decatur Energy Center","55292","055292FACLTY","CSNOX","2021","Yes"
 "Morgan Energy Center","55293","055293FACLTY","CSNOX","2021","Yes"
 "Calumet Energy Team, LLC","55296","055296FACLTY","CSNOX","2021","Yes"
-"New Covert Generating Project","55297","055297FACLTY","CSNOX","2021","Yes"
+"Covert Generating Station","55297","055297FACLTY","CSNOX","2021","Yes"
 "Fairless Energy Center","55298","055298FACLTY","CSNOX","2021","Yes"
 "Baconton Power","55304","055304FACLTY","CSNOX","2021","Yes"
 "Washington County Power","55332","055332FACLTY","CSNOX","2021","Yes"
@@ -2503,7 +2502,7 @@
 "Big Sandy Peaker Plant","55284","055284FACLTY","CSOSG3","2021","Yes"
 "Wolf Hills Energy","55285","055285FACLTY","CSOSG3","2021","Yes"
 "Calumet Energy Team, LLC","55296","055296FACLTY","CSOSG3","2021","Yes"
-"New Covert Generating Project","55297","055297FACLTY","CSOSG3","2021","Yes"
+"Covert Generating Station","55297","055297FACLTY","CSOSG3","2021","Yes"
 "Fairless Energy Center","55298","055298FACLTY","CSOSG3","2021","Yes"
 "Holland Energy Facility","55334","055334FACLTY","CSOSG3","2021","Yes"
 "Helix Ironwood LLC","55337","055337FACLTY","CSOSG3","2021","Yes"
@@ -3013,7 +3012,7 @@
 "Big Sandy Peaker Plant","55284","055284FACLTY","CSSO2G1","2021","Yes"
 "Wolf Hills Energy","55285","055285FACLTY","CSSO2G1","2021","Yes"
 "Calumet Energy Team, LLC","55296","055296FACLTY","CSSO2G1","2021","Yes"
-"New Covert Generating Project","55297","055297FACLTY","CSSO2G1","2021","Yes"
+"Covert Generating Station","55297","055297FACLTY","CSSO2G1","2021","Yes"
 "Fairless Energy Center","55298","055298FACLTY","CSSO2G1","2021","Yes"
 "Holland Energy Facility","55334","055334FACLTY","CSSO2G1","2021","Yes"
 "Helix Ironwood LLC","55337","055337FACLTY","CSSO2G1","2021","Yes"
@@ -3327,6 +3326,7 @@
 "Algonquin Power Windsor Locks, LLC","10567","010567FACLTY",NA,NA,NA
 "AES Hawaii","10673",NA,NA,NA,NA
 "Graphic Packaging International, Inc.","10698","010698FACLTY",NA,NA,NA
+"E. F. Oxnard Energy Facility","10776","010776FACLTY",NA,NA,NA
 "Colstrip Energy Limited Partnership","10784",NA,NA,NA,NA
 "Chemours Belle Plant","10788","010788FACLTY",NA,NA,NA
 "E F Kenilworth, Inc.","10805",NA,NA,NA,NA
