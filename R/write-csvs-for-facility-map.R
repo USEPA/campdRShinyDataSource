@@ -119,9 +119,6 @@ allAllowancePrograms["emissionYears"] <- NA
 # getting compliance years and merging table
 applicableCompliance <- get_allow_comp_applicable_data()
 
-# override 2022 ARP compliance year
-applicableCompliance <- applicableCompliance %>% filter(applicableCompliance$year != 2022)
-
 applicableProgramCompYears <- unique(applicableCompliance[,c("year","programCode")])
 
 applicableProgramListYears <- as.data.frame(do.call(rbind, unique(applicableProgramCompYears[,c("programCode")]) %>% map(function(prg)
