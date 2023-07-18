@@ -1037,7 +1037,7 @@
 "Exira Station",56013,"IA","Iowa","Audubon County",41.5131,-94.9189,"U-3","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG2, CSSO2G1"
 "Lime Creek",7155,"IA","Iowa","Cerro Gordo County",43.2481,-93.2046,"**1","Operating","Diesel Oil","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG2, CSSO2G1"
 "George Neal South",7343,"IA","Iowa","Woodbury County",42.3022,-96.3622,"4","Operating","Coal","Yes","Yes","Yes","No",2022,"ARP, CSNOX, CSOSG2, CSSO2G1, MATS"
-"Streeter Station",1131,"IA","Iowa","Black Hawk County",42.5267,-92.4394,"7","Operating","Coal","No","No","Yes","No",2022,"ARP, CSNOX, CSOSG2, CSSO2G1, MATS"
+"Streeter Station",1131,"IA","Iowa","Black Hawk County",42.5267,-92.4394,"7","Operating","Coal, Pipeline Natural Gas","No","No","Yes","No",2022,"ARP, CSNOX, CSOSG2, CSSO2G1, MATS"
 "Lime Creek",7155,"IA","Iowa","Cerro Gordo County",43.2481,-93.2046,"**2","Operating","Diesel Oil","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG2, CSSO2G1"
 "Lansing",1047,"IA","Iowa","Allamakee County",43.3359,-91.1672,"4","Operating","Coal","Yes","Yes","Yes","Yes",2022,"ARP, CSNOX, CSOSG2, CSSO2G1, MATS"
 "Prairie Creek",1073,"IA","Iowa","Linn County",41.9439,-91.6386,"3","Operating","Coal","No","Yes","Yes","Yes",2022,"ARP, CSNOX, CSOSG2, CSSO2G1, MATS"
