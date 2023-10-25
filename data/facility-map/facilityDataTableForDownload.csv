@@ -1379,7 +1379,7 @@
 "Cayuga",1001,"IN","Indiana","Vermillion County",39.9239,-87.4272,"4","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "Cayuga",1001,"IN","Indiana","Vermillion County",39.9239,-87.4272,"2","Operating","Coal","Yes","Yes","Yes","Yes",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
 "Hoosier Energy Lawrence Co Station",7948,"IN","Indiana","Lawrence County",38.8003,-86.4511,"1","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1"
-"Edwardsport Generating Station",1004,"IN","Indiana","Knox County",38.8067,-87.2472,"CTG1","Operating","Coal","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
+"Edwardsport Generating Station",1004,"IN","Indiana","Knox County",38.8067,-87.2472,"CTG1","Operating","Coal","No","No","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
 "Gibson",6113,"IN","Indiana","Gibson County",38.3722,-87.7661,"3","Operating","Coal","Yes","Yes","Yes","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS"
 "Anderson",7336,"IN","Indiana","Madison County",40.0529,-85.7389,"ACT2","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1"
 "BP Whiting Business Unit",52130,"IN","Indiana","Lake County",41.6703,-87.4803,"3SPS34","Operating","Process Gas","No","Yes","No","No",2022,"SIPNOX"
