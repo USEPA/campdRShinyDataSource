@@ -3135,7 +3135,7 @@
 "Hill Top Energy Center",62565,"PA","Pennsylvania","Greene County",39.8931,-79.9308,"01","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, NSPS4T, RGGI"
 "York Energy Center",55524,"PA","Pennsylvania","York County",39.738,-76.3072,"1","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Liberty Electric Power Plant",55231,"PA","Pennsylvania","Delaware County",39.8622,-75.3361,"0002","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
-"Shermans Dale Station",880050,"PA","Pennsylvania","Perry County",40.3439,-77.1628,"31801","Operating","Pipeline Natural Gas","No","No","No","No",2022,"SIPNOX"
+"Shermans Dale Station",880050,"PA","Pennsylvania","Perry County",40.3439,-77.1628,"31801","Retired","Pipeline Natural Gas","No","No","No","No",2022,NA
 "Hunlock Unit 4",56397,"PA","Pennsylvania","Luzerne County",41.2033,-76.0683,"4","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Croydon Generating Station",8012,"PA","Pennsylvania","Bucks County",40.08,-74.8917,"31","Operating","Diesel Oil","No","No","No","No",2022,"CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Colver Green Energy",10143,"PA","Pennsylvania","Cambria County",40.55,-78.8,"AAB01","Operating","Coal Refuse","Yes","Yes","Yes","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
@@ -3162,7 +3162,7 @@
 "Lackawanna Energy Center",60357,"PA","Pennsylvania","Lackawanna County",41.4711,-75.5436,"3","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, RGGI"
 "US Steel (Edgar Thomson)",50732,"PA","Pennsylvania","Allegheny County",40.3925,-79.8564,"ETBLR1","Operating","Process Gas","No","No","No","No",2022,"SIPNOX"
 "Grays Ferry Cogen Partnership",54785,"PA","Pennsylvania","Philadelphia County",39.9417,-75.1883,"25","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"CSNOX, CSOSG3, CSSO2G1, RGGI"
-"Bernville Station",880049,"PA","Pennsylvania","Berks County",40.4092,-76.1511,"32001","Operating","Pipeline Natural Gas","No","No","No","No",2022,"SIPNOX"
+"Bernville Station",880049,"PA","Pennsylvania","Berks County",40.4092,-76.1511,"32001","Retired","Pipeline Natural Gas","No","No","No","No",2022,NA
 "Seward",3130,"PA","Pennsylvania","Indiana County",40.4081,-79.0339,"2","Operating","Coal Refuse","Yes","Yes","Yes","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, MATS, RGGI"
 "Croydon Generating Station",8012,"PA","Pennsylvania","Bucks County",40.08,-74.8917,"32","Operating","Diesel Oil","No","No","No","No",2022,"CSNOX, CSOSG3, CSSO2G1, RGGI"
 "Hickory Run Energy Station",61028,"PA","Pennsylvania","Lawrence County",40.9951,-80.4301,"CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2022,"ARP, CSNOX, CSOSG3, CSSO2G1, NSPS4T, RGGI"
