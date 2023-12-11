@@ -110,6 +110,7 @@ allPrograms$programShorthandDescription[which(allPrograms$programCode == "RGGI")
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "SIPNOX")] <- "SIP NOx Program"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "TXSO2")] <- "Texas SO2 Trading Program"
 
+allPrograms <- allPrograms %>% filter(programCode != "CSOSG2E")
 
 # Get all allowance programs
 allAllowancePrograms <- allPrograms#[allPrograms$allowanceUIFilter == TRUE,]
@@ -149,7 +150,7 @@ allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSNOX","CSSO2G1","CSSO2G2"))] <- paste(seq(2015, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG1","CSOSG2"))] <- paste(seq(2017, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG3"))] <- paste(seq(2021, latestEmissionYear), collapse=',')
-allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG2E"))] <- paste(seq(2023, latestEmissionYear), collapse=',')
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG2E"))]# <- paste(seq(2023, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("TXSO2"))] <- paste(seq(2019, latestEmissionYear), collapse=',')
 
 
@@ -175,7 +176,7 @@ latestYearsCurrentPrograms <- applicableProgramCompYears[applicableProgramCompYe
 
 latestComplianceYear <- min(latestYearsCurrentPrograms$year) # get min of max to ensure all compliance data is in for a given year
 
-#### Unit data for latest compliance year ###
+#### Unit data for latest data availabe year ###
 unitData <- get_facility_data(latestComplianceYear)
 
 res = GET(statesMdmUrl)
