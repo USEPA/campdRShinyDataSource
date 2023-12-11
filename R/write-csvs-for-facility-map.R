@@ -97,6 +97,7 @@ allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSNOX"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSNOXOS")] <- "CSAPR NOx Ozone Season Program"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSOSG1")] <- "CSAPR NOx Ozone Season Program Group 1"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSOSG2")] <- "CSAPR NOx Ozone Season Program Group 2"
+allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSOSG2E")] <- "CSAPR NOx Ozone Season Program Expanded Group 2"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSOSG3")] <- "CSAPR NOx Ozone Season Program Group 3"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSSO2G1")] <- "CSAPR SO2 Annual Program Group 1"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "CSSO2G2")] <- "CSAPR SO2 Annual Program Group 2"
@@ -148,6 +149,7 @@ allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSNOX","CSSO2G1","CSSO2G2"))] <- paste(seq(2015, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG1","CSOSG2"))] <- paste(seq(2017, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG3"))] <- paste(seq(2021, latestEmissionYear), collapse=',')
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG2E"))] <- paste(seq(2023, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("TXSO2"))] <- paste(seq(2019, latestEmissionYear), collapse=',')
 
 
