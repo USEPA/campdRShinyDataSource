@@ -8,8 +8,8 @@
 "CSOSG1","Cross-State Air Pollution Rule NOx Ozone Season Program Group 1","NOX","CSAPR",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR NOx Ozone Season Program Group 1","2017,2018,2019,2020,2021,2022,2023","2017,2018,2019,2020,2021,2022"
 "CSOSG2","Cross-State Air Pollution Rule NOx Ozone Season Program Group 2","NOX","CSAPR",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR NOx Ozone Season Program Group 2","2017,2018,2019,2020,2021,2022,2023","2017,2018,2019,2020,2021,2022"
 "CSOSG3","Cross-State Air Pollution Rule NOx Ozone Season Program Group 3","NOX","CSAPR",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR NOx Ozone Season Program Group 3","2021,2022,2023","2021,2022"
-"CSSO2G1","Cross-State Air Pollution Rule SO2 Annual Program Group 1","SO2","CSAPR",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR SO2 Annual Program Group 1","2015,2016,2017,2018,2019,2020,2021,2022,2023","2015,2016,2017,2018,2019,2020,2021,2022"
-"CSSO2G2","Cross-State Air Pollution Rule SO2 Annual Program Group 2","SO2","CSAPR",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR SO2 Annual Program Group 2","2015,2016,2017,2018,2019,2020,2021,2022,2023","2015,2016,2017,2018,2019,2020,2021,2022"
+"CSSO2G1","Cross-State Air Pollution Rule SO2 Annual Program Group 1","SO2","CSAPR",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR SO2 Annual Program Group 1","2015,2016,2017,2018,2019,2020,2021,2022,2023","2015,2016,2017"
+"CSSO2G2","Cross-State Air Pollution Rule SO2 Annual Program Group 2","SO2","CSAPR",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Cross-State Air Pollution Rule","CSAPR SO2 Annual Program Group 2","2015,2016,2017,2018,2019,2020,2021,2022,2023",NA
 "MATS","Mercury and Air Toxics Standards",NA,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA,"Mercury and Air Toxics Standards",NA,NA
 "NBP","NOx Budget Trading Program","NOX",NA,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,"2009-03-25",NA,"NOx Budget Trading Program","2003,2004,2005,2006,2007,2008","2003,2004,2005,2006,2007,2008"
 "NHNOX","NH NOx Program",NA,NA,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,NA,"New Hampshire NOx Program",NA,NA
@@ -17,4 +17,4 @@
 "OTC","OTC NOx Budget Program","NOX",NA,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,"2003-05-06",NA,"OTC NOx Budget Program","1999,2000,2001,2002","1999,2000,2001,2002"
 "RGGI","Regional Greenhouse Gas Initiative",NA,NA,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,NA,NA,"Regional Greenhouse Gas Initiative",NA,NA
 "SIPNOX","SIP NOx Program",NA,NA,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,NA,"SIP NOx Program",NA,NA
-"TXSO2","Texas SO2 Trading Program","SO2","TXSO2",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Texas SO2 Trading Program","Texas SO2 Trading Program","2019,2020,2021,2022,2023","2019,2020,2021,2022"
+"TXSO2","Texas SO2 Trading Program","SO2","TXSO2",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,NA,"Texas SO2 Trading Program","Texas SO2 Trading Program","2019,2020,2021,2022,2023",NA
