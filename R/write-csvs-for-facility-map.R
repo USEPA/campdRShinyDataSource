@@ -110,8 +110,6 @@ allPrograms$programShorthandDescription[which(allPrograms$programCode == "RGGI")
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "SIPNOX")] <- "SIP NOx Program"
 allPrograms$programShorthandDescription[which(allPrograms$programCode == "TXSO2")] <- "Texas SO2 Trading Program"
 
-allPrograms <- allPrograms %>% filter(programCode != "CSOSG2E")
-
 # Get all allowance programs
 allAllowancePrograms <- allPrograms#[allPrograms$allowanceUIFilter == TRUE,]
 
