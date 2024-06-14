@@ -148,7 +148,7 @@ allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSNOX","CSSO2G1","CSSO2G2"))] <- paste(seq(2015, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG1","CSOSG2"))] <- paste(seq(2017, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG3"))] <- paste(seq(2021, latestEmissionYear), collapse=',')
-allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG2E"))]# <- paste(seq(2023, latestEmissionYear), collapse=',')
+allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG2E"))] <- paste(seq(2023, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("TXSO2"))] <- paste(seq(2019, latestEmissionYear), collapse=',')
 
 
