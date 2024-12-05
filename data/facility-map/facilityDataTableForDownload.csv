@@ -3290,9 +3290,9 @@
 "Columbia Energy Center (SC)",55386,"SC","South Carolina","Calhoun County",33.8692,-81.0183,"B-2","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"SIPNOX"
 "Myrtle Beach Gas Turbine Site",3320,"SC","South Carolina","Horry County",33.7089,-78.9233,"CT3","Operating","Diesel Oil","No","No","No","No",2023,"CSNOX, CSSO2G2, SIPNOX"
 "Big Stone",6098,"SD","South Dakota","Grant County",45.3047,-96.5103,"1","Operating","Coal","Yes","Yes","Yes","Yes",2023,"ARP, MATS"
-"Huron",3344,"SD","South Dakota","Beadle County",44.3696,-98.17,"**2A","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"ARP"
+"Huron",3344,"SD","South Dakota","Beadle County",44.3696,-98.17,"**2A","Retired","Pipeline Natural Gas","No","Yes","No","No",2023,NA
 "Aberdeen Generating Station",3338,"SD","South Dakota","Brown County",45.4287,-98.4932,"2B","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"ARP"
-"Huron",3344,"SD","South Dakota","Beadle County",44.3696,-98.17,"**2B","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"ARP"
+"Huron",3344,"SD","South Dakota","Beadle County",44.3696,-98.17,"**2B","Retired","Pipeline Natural Gas","No","Yes","No","No",2023,NA
 "Aberdeen Generating Station",3338,"SD","South Dakota","Brown County",45.4287,-98.4932,"2A","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"ARP"
 "Groton Generating Station",56238,"SD","South Dakota","Brown County",45.3718,-98.1032,"CT002","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"ARP"
 "Lange",55478,"SD","South Dakota","Pennington County",44.1212,-103.2608,"CT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2023,"ARP"
