@@ -267,7 +267,6 @@
 "Wateree","3297","003297FACLTY","ARP","2023","Yes"
 "Williams","3298","003298FACLTY","ARP","2023","Yes"
 "Aberdeen Generating Station","3338","003338FACLTY","ARP","2023","Yes"
-"Huron","3344","003344FACLTY","ARP","2023","Yes"
 "Allen","3393","003393FACLTY","ARP","2023","Yes"
 "Bull Run","3396","003396FACLTY","ARP","2023","Yes"
 "Cumberland","3399","003399FACLTY","ARP","2023","Yes"
@@ -3225,6 +3224,7 @@
 "59th Street","2503","002503FACLTY",NA,NA,NA
 "East Hampton Facility","2512","002512FACLTY",NA,NA,NA
 "Eastlake","2837","002837FACLTY",NA,NA,NA
+"Huron","3344","003344FACLTY",NA,NA,NA
 "Berlin 5","3734",NA,NA,NA,NA
 "Penny Lane Gas Turbine","3754",NA,NA,NA,NA
 "Willow Island Power Station","3946","003946FACLTY",NA,NA,NA
