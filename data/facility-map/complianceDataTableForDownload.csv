@@ -863,11 +863,16 @@
 "Goldendale Generating Station","55482","055482FACLTY","ARP","2023","Yes"
 "Washington Parish Energy Center","55486","055486FACLTY","ARP","2023","Yes"
 "Goose Creek Power Plant","55496","055496FACLTY","ARP","2023","Yes"
+"CalPeak Power - Vaca Dixon","55499","055499FACLTY","ARP","2023","Yes"
 "Tenaska Kiamichi Generating Station","55501","055501FACLTY","ARP","2023","Yes"
 "Lawrenceburg Energy Facility","55502","055502FACLTY","ARP","2023","Yes"
 "Waterford Plant","55503","055503FACLTY","ARP","2023","Yes"
 "Limon Generating Station","55504","055504FACLTY","ARP","2023","Yes"
 "Frank Knutson Station","55505","055505FACLTY","ARP","2023","Yes"
+"CalPeak Power - Panoche","55508","055508FACLTY","ARP","2023","Yes"
+"CalPeak Power - Border","55510","055510FACLTY","ARP","2023","Yes"
+"Cuyamaca Peak Energy","55512","055512FACLTY","ARP","2023","Yes"
+"CalPeak Power - Enterprise","55513","055513FACLTY","ARP","2023","Yes"
 "Apex Generating Station","55514","055514FACLTY","ARP","2023","Yes"
 "Fayette Power Company LLC","55516","055516FACLTY","ARP","2023","Yes"
 "Wallingford Energy, LLC","55517","055517FACLTY","ARP","2023","Yes"
@@ -877,9 +882,9 @@
 "Escondido Energy Center, LLC","55538","055538FACLTY","ARP","2023","Yes"
 "Chula Vista Energy Center","55540","055540FACLTY","ARP","2023","Yes"
 "Indigo Generation Facility","55541","055541FACLTY","ARP","2023","Yes"
-"Larkspur Energy Faciity","55542","055542FACLTY","ARP","2023","Yes"
+"Larkspur Energy Facility","55542","055542FACLTY","ARP","2023","Yes"
 "Klamath Generation Peakers","55544","055544FACLTY","ARP","2023","Yes"
-"McKinley Paper WI Company","55558","055558FACLTY","ARP","2023","Yes"
+"McKinley Paper and Packaging Company","55558","055558FACLTY","ARP","2023","Yes"
 "Perryville Power Station","55620","055620FACLTY","ARP","2023","Yes"
 "West Valley Power Plant","55622","055622FACLTY","ARP","2023","Yes"
 "Creed Energy Center","55625","055625FACLTY","ARP","2023","Yes"
@@ -1669,7 +1674,7 @@
 "Waterford Plant","55503","055503FACLTY","CSNOX","2023","Yes"
 "Fayette Power Company LLC","55516","055516FACLTY","CSNOX","2023","Yes"
 "York Energy Center","55524","055524FACLTY","CSNOX","2023","Yes"
-"McKinley Paper WI Company","55558","055558FACLTY","CSNOX","2023","Yes"
+"McKinley Paper and Packaging Company","55558","055558FACLTY","CSNOX","2023","Yes"
 "LSP University Park, LLC","55640","055640FACLTY","CSNOX","2023","Yes"
 "Riverside Energy Center","55641","055641FACLTY","CSNOX","2023","Yes"
 "Chambersburg Units 12 & 13","55654","055654FACLTY","CSNOX","2023","Yes"
@@ -2115,7 +2120,7 @@
 "Paddy's Run","1366","001366FACLTY","CSOSG2E","2023","Yes"
 "Paradise","1378","001378FACLTY","CSOSG2E","2023","Yes"
 "Shawnee","1379","001379FACLTY","CSOSG2E","2023","Yes"
-"Robert Reid","1383","001383FACLTY","CSOSG2E","2023","Yes"
+"Robert Reid","1383","001383FACLTY","CSOSG2E","2023","No"
 "John S. Cooper","1384","001384FACLTY","CSOSG2E","2023","Yes"
 "Louisiana 1","1391","001391FACLTY","CSOSG2E","2023","Yes"
 "R S Nelson","1393","001393FACLTY","CSOSG2E","2023","Yes"
@@ -2467,7 +2472,7 @@
 "Waterford Plant","55503","055503FACLTY","CSOSG3","2023","Yes"
 "Fayette Power Company LLC","55516","055516FACLTY","CSOSG3","2023","Yes"
 "York Energy Center","55524","055524FACLTY","CSOSG3","2023","Yes"
-"McKinley Paper WI Company","55558","055558FACLTY","CSOSG3","2023","Yes"
+"McKinley Paper and Packaging Company","55558","055558FACLTY","CSOSG3","2023","Yes"
 "LSP University Park, LLC","55640","055640FACLTY","CSOSG3","2023","Yes"
 "Riverside Energy Center","55641","055641FACLTY","CSOSG3","2023","Yes"
 "Chambersburg Units 12 & 13","55654","055654FACLTY","CSOSG3","2023","Yes"
@@ -2956,7 +2961,7 @@
 "Waterford Plant","55503","055503FACLTY","CSSO2G1","2023","Yes"
 "Fayette Power Company LLC","55516","055516FACLTY","CSSO2G1","2023","Yes"
 "York Energy Center","55524","055524FACLTY","CSSO2G1","2023","Yes"
-"McKinley Paper WI Company","55558","055558FACLTY","CSSO2G1","2023","Yes"
+"McKinley Paper and Packaging Company","55558","055558FACLTY","CSSO2G1","2023","Yes"
 "LSP University Park, LLC","55640","055640FACLTY","CSSO2G1","2023","Yes"
 "Riverside Energy Center","55641","055641FACLTY","CSSO2G1","2023","Yes"
 "Chambersburg Units 12 & 13","55654","055654FACLTY","CSSO2G1","2023","Yes"
@@ -3232,7 +3237,6 @@
 "Healy Power Plant","6288",NA,NA,NA,NA
 "RockTenn West Point Mill","10017","010017FACLTY",NA,NA,NA
 "RED-Rochester, LLC-Eastman Business Park","10025","010025FACLTY",NA,NA,NA
-"Power Island","10154","010154FACLTY",NA,NA,NA
 "MBTA South Boston Power Facility","10176","010176FACLTY",NA,NA,NA
 "Pixelle Specialty Solutions LLC","10244","010244FACLTY",NA,NA,NA
 "Domtar Paper Co., LLC - Kingsport Mill","10252",NA,NA,NA,NA
@@ -3287,14 +3291,8 @@
 "Portside Energy","55096","055096FACLTY",NA,NA,NA
 "NAFTA Region Olefins Complex","55122",NA,NA,NA,NA
 "DTE Calvert City, LLC","55308","055308FACLTY",NA,NA,NA
-"CalPeak Power - Vaca Dixon","55499","055499FACLTY",NA,NA,NA
-"CalPeak Power - Panoche","55508","055508FACLTY",NA,NA,NA
-"CalPeak Power - Border","55510","055510FACLTY",NA,NA,NA
-"Cuyamaca Peak Energy","55512","055512FACLTY",NA,NA,NA
-"CalPeak Power - Enterprise","55513","055513FACLTY",NA,NA,NA
 "Valero Refining Company-Tennessee, LLC","55703","055703FACLTY",NA,NA,NA
 "Otsego Paper, Inc.","55799","055799FACLTY",NA,NA,NA
-"Freeport Energy Center","56152","056152FACLTY",NA,NA,NA
 "Waterside Power, LLC","56189","056189FACLTY",NA,NA,NA
 "NIH Cogeneration Facility","56668",NA,NA,NA,NA
 "Cove Point LNG Terminal","59073",NA,NA,NA,NA
@@ -3486,6 +3484,7 @@
 "New Gulf Power Facility","50137","050137FACLTY","CSOSG2","2020","No"
 "Shelby County","55237","055237FACLTY","CSOSG2","2020","No"
 "Colorado Bend II","60122","060122FACLTY","CSOSG2","2020","No"
+"Robert Reid","1383","001383FACLTY","CSOSG2E","2023","No"
 "PEI Power Corporation","50279","050279FACLTY","CSOSG3","2023","No"
 "Darbytown Combustion Turbine","7212","007212FACLTY","CSSO2G1","2015","No"
 "South Houston Green Power Site","55470","055470FACLTY","CSSO2G2","2015","No"
