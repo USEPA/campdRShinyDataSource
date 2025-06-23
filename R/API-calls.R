@@ -1,6 +1,14 @@
 
 # API info
 apiUrlBase <- "https://api.epa.gov/easey"
+# If .env exists, load it. Otherwise, use environment variables
+if (file.exists(".env")) {
+  if (require(dotenv)) {
+    dotenv::load_dot_env()
+  } else {
+    stop("dotenv package is required to load .env file.")
+  }
+}
 apiKEY <- Sys.getenv("API_KEY")
 
 # quarter emissions url

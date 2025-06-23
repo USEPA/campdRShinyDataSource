@@ -113,6 +113,13 @@ allPrograms$programShorthandDescription[which(allPrograms$programCode == "TXSO2"
 # Get all allowance programs
 allAllowancePrograms <- allPrograms#[allPrograms$allowanceUIFilter == TRUE,]
 
+#######################
+# HARDCODE - REMOVE IN FUTURE
+# Change complianceUIFilter for CSOSG3 to FALSE and CSOSG2E to TRUE
+allAllowancePrograms$complianceUIFilter[which(allAllowancePrograms$programCode == "CSOSG3")] <- FALSE
+allAllowancePrograms$complianceUIFilter[which(allAllowancePrograms$programCode == "CSOSG2E")] <- TRUE
+#######################
+
 # adding emission and compliance year columns
 allAllowancePrograms["emissionYears"] <- NA
 
@@ -151,8 +158,9 @@ allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("CSOSG2E"))] <- paste(seq(2023, latestEmissionYear), collapse=',')
 allAllowancePrograms$emissionYears[which(allAllowancePrograms$programCode %in% c("TXSO2"))] <- paste(seq(2019, latestEmissionYear), collapse=',')
 
-
-currentCompliancePrograms <- allAllowancePrograms[(allAllowancePrograms$retiredIndicator==FALSE & allAllowancePrograms$complianceUIFilter == TRUE),]
+# filter out programs that are not applicable for compliance
+currentCompliancePrograms <- allAllowancePrograms %>%
+  filter(retiredIndicator==FALSE & complianceUIFilter == TRUE)
 
 write.csv(allAllowancePrograms, file = "data/facility-map/programTable.csv", row.names = FALSE)
 
