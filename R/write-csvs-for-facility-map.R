@@ -119,8 +119,7 @@ allAllowancePrograms <- allPrograms#[allPrograms$allowanceUIFilter == TRUE,]
 allAllowancePrograms$complianceUIFilter[which(allAllowancePrograms$programCode == "CSOSG3")] <- FALSE
 allAllowancePrograms$complianceUIFilter[which(allAllowancePrograms$programCode == "CSOSG2E")] <- TRUE
 # Change retiredIndicator to TRUE
-allAllowancePrograms$complianceUIFilter[which(allAllowancePrograms$retiredIndicator == "CSOSG2E")] <- TRUE
-
+allAllowancePrograms$retiredIndicator[which(allAllowancePrograms$programCode == "CSOSG3")] <- TRUE
 #######################
 
 # adding emission and compliance year columns
