@@ -3545,7 +3545,7 @@
 "Harrington Station",6193,"TX","Texas","Potter County",35.2972,-101.7475,"061B","Operating","Coal","No","Yes","Yes","Yes",2024,"ARP, CSOSG2, MATS, TXSO2"
 "Harrington Station",6193,"TX","Texas","Potter County",35.2972,-101.7475,"062B","Operating","Coal","No","Yes","Yes","Yes",2024,"ARP, CSOSG2, MATS, TXSO2"
 "Sim Gideon",3601,"TX","Texas","Bastrop County",30.1456,-97.2708,"3","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
-"J Robert Massengale Generating Station",3604,"TX","Texas","Lubbock County",33.6039,-101.8408,"GT1","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
+"J Robert Massengale Generating Station",3604,"TX","Texas","Lubbock County",33.6039,-101.8408,"GT1","Retired","Pipeline Natural Gas","No","Yes","No","No",2024,NA
 "Frontera Generation Facility",55098,"TX","Texas","Hidalgo County",26.208,-98.3992,"2","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
 "Leon Creek",3609,"TX","Texas","Bexar County",29.3511,-98.5753,"CGT2","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
 "Carbon Capture Plant",58378,"TX","Texas","Fort Bend County",29.4753,-95.6341,"CTHRSG","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
