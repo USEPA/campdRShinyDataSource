@@ -288,7 +288,6 @@
 "Silas Ray","3559","003559FACLTY","ARP","2024","Yes"
 "Ray Olinger","3576","003576FACLTY","ARP","2024","Yes"
 "Sim Gideon","3601","003601FACLTY","ARP","2024","Yes"
-"J Robert Massengale Generating Station","3604","003604FACLTY","ARP","2024","Yes"
 "Leon Creek","3609","003609FACLTY","ARP","2024","Yes"
 "O W Sommers","3611","003611FACLTY","ARP","2024","Yes"
 "V H Braunig","3612","003612FACLTY","ARP","2024","Yes"
@@ -1882,7 +1881,6 @@
 "Silas Ray","3559","003559FACLTY","CSOSG2","2024","Yes"
 "Ray Olinger","3576","003576FACLTY","CSOSG2","2024","Yes"
 "Sim Gideon","3601","003601FACLTY","CSOSG2","2024","Yes"
-"J Robert Massengale Generating Station","3604","003604FACLTY","CSOSG2","2024","Yes"
 "Leon Creek","3609","003609FACLTY","CSOSG2","2024","Yes"
 "O W Sommers","3611","003611FACLTY","CSOSG2","2024","Yes"
 "V H Braunig","3612","003612FACLTY","CSOSG2","2024","Yes"
@@ -3182,6 +3180,7 @@
 "59th Street","2503","002503FACLTY",NA,NA,NA
 "East Hampton Facility","2512","002512FACLTY",NA,NA,NA
 "Huron","3344","003344FACLTY",NA,NA,NA
+"J Robert Massengale Generating Station","3604","003604FACLTY",NA,NA,NA
 "Berlin 5","3734",NA,NA,NA,NA
 "Penny Lane Gas Turbine","3754",NA,NA,NA,NA
 "Willow Island Power Station","3946","003946FACLTY",NA,NA,NA
