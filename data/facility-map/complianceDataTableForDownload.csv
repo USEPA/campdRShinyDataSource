@@ -551,6 +551,7 @@
 "King City Power Plant","10294","010294FACLTY","ARP","2024","Yes"
 "Bellingham","10307","010307FACLTY","ARP","2024","Yes"
 "Sayreville Power LP","10308","010308FACLTY","ARP","2024","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","ARP","2024","Yes"
 "Yuba City Energy Center","10349","010349FACLTY","ARP","2024","Yes"
 "Greenleaf One","10350","010350FACLTY","ARP","2024","Yes"
 "Kingsburg Cogen Facility","10405","010405FACLTY","ARP","2024","Yes"
@@ -1492,6 +1493,7 @@
 "Grant Town Power Plant","10151","010151FACLTY","CSNOX","2024","Yes"
 "Castleton Power, LLC","10190","010190FACLTY","CSNOX","2024","Yes"
 "Sayreville Power LP","10308","010308FACLTY","CSNOX","2024","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","CSNOX","2024","Yes"
 "Craven County Wood Energy","10525","010525FACLTY","CSNOX","2024","Yes"
 "Ebensburg Power Company","10603","010603FACLTY","CSNOX","2024","Yes"
 "Beaver Falls, LLC","10617","010617FACLTY","CSNOX","2024","Yes"
@@ -2780,6 +2782,7 @@
 "Grant Town Power Plant","10151","010151FACLTY","CSSO2G1","2024","Yes"
 "Castleton Power, LLC","10190","010190FACLTY","CSSO2G1","2024","Yes"
 "Sayreville Power LP","10308","010308FACLTY","CSSO2G1","2024","Yes"
+"Mt. Carmel Cogeneration","10343","010343FACLTY","CSSO2G1","2024","Yes"
 "Craven County Wood Energy","10525","010525FACLTY","CSSO2G1","2024","Yes"
 "Ebensburg Power Company","10603","010603FACLTY","CSSO2G1","2024","Yes"
 "Beaver Falls, LLC","10617","010617FACLTY","CSSO2G1","2024","Yes"
@@ -3192,7 +3195,6 @@
 "Pixelle Specialty Solutions LLC","10244","010244FACLTY",NA,NA,NA
 "Domtar Paper Co., LLC - Kingsport Mill","10252",NA,NA,NA,NA
 "T B Simon Power Plant","10328","010328FACLTY",NA,NA,NA
-"Mt. Carmel Cogeneration","10343","010343FACLTY",NA,NA,NA
 "Black River Generation, LLC","10464","010464FACLTY",NA,NA,NA
 "Ahlstrom Power Windsor Locks, LLC","10567","010567FACLTY",NA,NA,NA
 "Graphic Packaging International, Inc.","10698","010698FACLTY",NA,NA,NA
