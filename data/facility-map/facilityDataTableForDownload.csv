@@ -1430,7 +1430,7 @@
 "Osawatomie Generating Station",7928,"KS","Kansas","Miami County",38.5325,-94.9042,"1","Operating","Pipeline Natural Gas","No","No","No","No",2024,"ARP, CSNOX, CSOSG2, CSSO2G2"
 "Lawrence Energy Center",1250,"KS","Kansas","Douglas County",39.0072,-95.2692,"5","Operating","Coal","Yes","Yes","Yes","No",2024,"ARP, CSNOX, CSOSG2, CSSO2G2, MATS"
 "Emporia Energy Center",56502,"KS","Kansas","Lyon County",38.4464,-96.0651,"EEC5","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSNOX, CSOSG2, CSSO2G2"
-"Holcomb",108,"KS","Kansas","Finney County",37.9306,-100.9725,"SGU1","Operating","Coal","Yes","Yes","Yes","No",2024,"ARP, CSNOX, CSOSG2, CSSO2G2, MATS"
+"Holcomb",108,"KS","Kansas","Finney County",37.9306,-100.9725,"SGU1","Operating","Coal","Yes","Yes","Yes","Yes",2024,"ARP, CSNOX, CSOSG2, CSSO2G2, MATS"
 "East Bend",6018,"KY","Kentucky","Boone County",38.9031,-84.8511,"2","Operating","Coal","Yes","Yes","Yes","No",2024,"ARP, CSNOX, CSOSG2E, CSSO2G1, MATS"
 "Marshall County",55232,"KY","Kentucky","Marshall County",37.0286,-88.3958,"CT8","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSNOX, CSOSG2E, CSSO2G1"
 "Paducah Power Systems Plant 1",56556,"KY","Kentucky","McCracken County",37.0339,-88.6161,"EU01B","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSNOX, CSOSG2E, CSSO2G1"
