@@ -2883,7 +2883,7 @@
 "Spring Creek Power Plant",55651,"OK","Oklahoma","Logan County",35.7422,-97.655,"CT-03","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
 "Mustang",2953,"OK","Oklahoma","Canadian County",35.4711,-97.6733,"T11","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
 "Northeastern",2963,"OK","Oklahoma","Rogers County",36.4317,-95.7008,"3302","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
-"Grand River Dam Authority",165,"OK","Oklahoma","Mayes County",36.1906,-95.2889,"1","Operating","Coal","No","Yes","Yes","No",2024,"ARP, CSOSG2, MATS"
+"Grand River Dam Authority",165,"OK","Oklahoma","Mayes County",36.1906,-95.2889,"1","Retired","Coal","No","Yes","Yes","No",2024,NA
 "Chouteau Power Plant",7757,"OK","Oklahoma","Mayes County",36.2206,-95.2756,"1","Operating","Pipeline Natural Gas","No","Yes","No","No",2024,"ARP, CSOSG2"
 "Southwestern",2964,"OK","Oklahoma","Caddo County",35.1009,-98.3524,"801N","Operating","Pipeline Natural Gas","No","No","No","No",2024,"ARP, CSOSG2"
 "Horseshoe Lake",2951,"OK","Oklahoma","Oklahoma County",35.5089,-97.1789,"7","Operating","Pipeline Natural Gas","No","No","No","No",2024,"ARP, CSOSG2"
